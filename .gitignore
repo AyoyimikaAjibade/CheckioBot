@@ -15,7 +15,7 @@ db.*
 .idea/
 
 #keys
-secrets.json
+\secrets.json
 
 __pycache__/
 checkio_venv/
