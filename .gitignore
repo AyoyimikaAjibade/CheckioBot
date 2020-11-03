@@ -5,7 +5,13 @@
 *.*~
 ~.#~
 /.#~
+.vscode*
+debug.log
+venv/
+Pipfile
+Pipfile.lock
 
+checkio_venv/
 Pipfile
 Pipfile.lock
 
@@ -15,8 +21,9 @@ db.*
 .idea/
 
 #keys
-\secrets.json
+secrets.json
+
+#Mac
+.DS_Store
 
 __pycache__/
-checkio_venv/
-debug.log
