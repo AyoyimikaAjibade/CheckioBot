@@ -1,15 +1,22 @@
+# .gitignore
+
 # Temporary files
 .#~
 *.*~
 ~.#~
 /.#~
 
+Pipfile
+Pipfile.lock
+
 # databases
 db.*
 *.sqlite3
 .idea/
 
-checkio_venv/
-__pycache__/
-debug.log
+#keys
 secrets.json
+
+__pycache__/
+checkio_venv/
+debug.log
